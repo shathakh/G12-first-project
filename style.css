@@ -58,3 +58,53 @@ img {
 .text h1 {
     font-size: 40px;
 }
+
+.second-page {
+    background-color: #d1d1d1;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.second-page .border-div {
+    border-bottom: 1px solid #686868;
+    width: 10%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.second-page h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.second-page .five-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.second-page .five-icons div {
+    padding: 3%;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.second-page p {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.second-page .but-div {
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 10px;
+    width: 92px;
+    font-size: 11px;
+    color: #3a3a3a;
+    margin: 0 auto;
+}
