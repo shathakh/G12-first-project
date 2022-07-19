@@ -285,3 +285,151 @@ header .border-div {
   .five-icons i{
    font-size: 25px;
   }
+  @media (max-width: 900px) {
+    .third-page{
+        margin: 0px;
+    }
+    .but-div-last {
+        margin: 35px auto 30px;
+}
+.fourth-page{
+    height: 46vh;
+}
+.fourth-page div{
+    width: 100%;
+}
+.fourth-page h1 {
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+.fourth-page p {
+    margin-bottom: 60px;
+    font-size: 20px;
+    padding: 0px 15px;
+   }
+   .fourth-page .but-div{
+    width: 130px;
+    font-size: 15px;
+   }
+   .icon{
+    margin-left: 94%;
+   }
+   .fifth-page{
+    padding: 50px 30px;
+   }
+   .fifth-page .text-para {
+    width: 45%;
+}
+}
+   @media (max-width: 600px) {
+    .icon{
+        margin-left: 86%;
+    }
+    .first-page {
+        display: flex;
+        justify-content: space-around;
+        /* width: 70%; */
+        /* margin: 0 auto; */
+        padding-top: 25px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .text {
+        /* margin: 100px; */
+        width: 100%;
+        text-align: center;
+    }
+    .text div{
+        width: 100%;
+        font-size: 20px;
+    }
+    .text h1{
+        margin-top: 20px;
+    }
+    .second-page .but-div{
+        width: 95%;
+    }
+    .third-page {
+        margin: 5px;
+    }
+    .img1 .text1 {
+        width: 100%;
+        text-align: center;
+    }
+    .container .img1 {
+        flex-direction: column;
+    }
+    .img1 img{
+        width: 100%;
+    }
+    .third-page .but-div{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .text1 .border-div {
+      
+        margin: 0 auto 30px;
+    }
+    .but-div-last{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .fourth-page div {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 7px;
+    }
+    .fourth-page{
+        height: 31vh;
+        color: white;
+        border: 1px solid white;
+    }
+    .fourth-page .but-div{
+        width: 95%;
+        padding: 5px;
+
+    }
+    .fourth-page h1 {
+         margin-bottom: 20px;
+    }
+    .fourth-page p{
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .fourth-page .border-div {
+        margin-bottom: 22px;
+    }
+    .fifth-page{
+        padding: 50px 10px;
+        flex-direction: column;
+    }
+    .fifth-page .text-para {
+        width: 100%;
+        text-align: center;
+    }
+    .text-para .border-div{
+        margin: 0 auto 30px;
+    }
+    .container .change-img{
+        flex-direction: column-reverse;
+    }
+    .fifth-page .icons {
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 10px;
+   }
+   .fifth-page .but-div{
+    width: 100%;
+   }
+   .fifth-page .input-div{
+    display: flex;
+    flex-direction: column;
+   }
+   .input-name{
+    margin-bottom: 20px;
+   }
+   .textarea{
+    margin-top: 0px;
+   }
+}
